@@ -10,6 +10,14 @@ Route::get('/', function () {
     return Inertia::render('Home');
 });
 
+Route::get('/portfolio/{slug}', function (string $slug) {
+    return Inertia::render('ProjectDetail', ['slug' => $slug]);
+})->name('portfolio.show');
+
+Route::get('/blog/{slug}', function (string $slug) {
+    return Inertia::render('BlogDetail', ['slug' => $slug]);
+})->name('blog.show');
+
 Route::post('/contact', function () {
     $data = request()->validate([
         'name' => ['required', 'string', 'max:120'],

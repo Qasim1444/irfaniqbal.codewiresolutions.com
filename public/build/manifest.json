@@ -13,7 +13,7 @@
     ]
   },
   "resources/js/Pages/BlogDetail.jsx": {
-    "file": "assets/BlogDetail-DJEX3zHB.js",
+    "file": "assets/BlogDetail-BwCcUcft.js",
     "name": "BlogDetail",
     "src": "resources/js/Pages/BlogDetail.jsx",
     "isDynamicEntry": true,
@@ -26,7 +26,7 @@
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-Bm49-aUg.js",
+    "file": "assets/Home-fH4iqEZJ.js",
     "name": "Home",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
@@ -39,7 +39,7 @@
     ]
   },
   "resources/js/Pages/ProjectDetail.jsx": {
-    "file": "assets/ProjectDetail-DGs2Bes8.js",
+    "file": "assets/ProjectDetail-gqgatJY4.js",
     "name": "ProjectDetail",
     "src": "resources/js/Pages/ProjectDetail.jsx",
     "isDynamicEntry": true,
@@ -52,7 +52,7 @@
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-Be9rG2_i.js",
+    "file": "assets/app-BmRg5BXn.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,

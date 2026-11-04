@@ -1,12 +1,26 @@
 import '../css/app.css';
 import '../css/quote-overrides.css';
 import React from 'react';
-import { createInertiaApp } from '@inertiajs/react';
+import Swal from 'sweetalert2';
+import { createInertiaApp, router } from '@inertiajs/react';
 import { createRoot } from 'react-dom/client';
 
 createInertiaApp({
     resolve: (name) => import(`./Pages/${name}.jsx`),
     setup({ el, App, props }) {
+        router.on('success', (event) => {
+            const message = event.detail.page.props.flash?.success;
+            if (message) {
+                Swal.fire({ icon: 'success', title: 'Message sent', text: message, confirmButtonColor: '#e2aa20' });
+            }
+        });
+        document.addEventListener('submit', () => {
+            const scrollPosition = window.scrollY;
+            requestAnimationFrame(() => window.scrollTo({ top: scrollPosition, behavior: 'instant' }));
+            setTimeout(() => window.scrollTo({ top: scrollPosition, behavior: 'instant' }), 250);
+            setTimeout(() => window.scrollTo({ top: scrollPosition, behavior: 'instant' }), 800);
+            setTimeout(() => window.scrollTo({ top: scrollPosition, behavior: 'instant' }), 1600);
+        });
         document.addEventListener('click', (event) => {
             const link = event.target.closest('a');
             if (!link || !['Read article ↗', 'View case study ↗'].includes(link.textContent.trim())) return;

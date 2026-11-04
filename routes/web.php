@@ -24,12 +24,13 @@ Route::post('/contact', function () {
         'email' => ['required', 'email', 'max:160'],
         'phone' => ['required', 'string', 'max:40'],
         'service' => ['required', 'string', 'max:120'],
-        'location' => ['required', 'string', 'max:120'],
+        'location' => ['nullable', 'string', 'max:120'],
         'budget' => ['required', 'string', 'max:120'],
         'timeline' => ['required', 'string', 'max:120'],
         'message' => ['required', 'string', 'max:3000'],
     ]);
 
+    $data['location'] = $data['location'] ?? 'Website quote form';
     $contactMessage = ContactMessage::create($data);
 
     Mail::to(env('CONTACT_NOTIFICATION_EMAIL', config('mail.from.address')))

@@ -13,7 +13,7 @@
     ]
   },
   "resources/js/Pages/BlogDetail.jsx": {
-    "file": "assets/BlogDetail-BwCcUcft.js",
+    "file": "assets/BlogDetail-D1ygd1og.js",
     "name": "BlogDetail",
     "src": "resources/js/Pages/BlogDetail.jsx",
     "isDynamicEntry": true,
@@ -26,7 +26,7 @@
     ]
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-fH4iqEZJ.js",
+    "file": "assets/Home-BK38HkcD.js",
     "name": "Home",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
@@ -39,7 +39,7 @@
     ]
   },
   "resources/js/Pages/ProjectDetail.jsx": {
-    "file": "assets/ProjectDetail-gqgatJY4.js",
+    "file": "assets/ProjectDetail-jvzGfDl6.js",
     "name": "ProjectDetail",
     "src": "resources/js/Pages/ProjectDetail.jsx",
     "isDynamicEntry": true,
@@ -52,7 +52,7 @@
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-BmRg5BXn.js",
+    "file": "assets/app-BfC_NxvK.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
@@ -62,7 +62,7 @@
       "resources/js/Pages/ProjectDetail.jsx"
     ],
     "css": [
-      "assets/app-IEsQrbqt.css",
+      "assets/app-16UDxqrc.css",
       "assets/app-DibCL-To.css"
     ]
   }

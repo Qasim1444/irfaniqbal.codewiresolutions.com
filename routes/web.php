@@ -22,8 +22,11 @@ Route::post('/contact', function () {
     $data = request()->validate([
         'name' => ['required', 'string', 'max:120'],
         'email' => ['required', 'email', 'max:160'],
+        'phone' => ['required', 'string', 'max:40'],
+        'service' => ['required', 'string', 'max:120'],
         'location' => ['required', 'string', 'max:120'],
         'budget' => ['required', 'string', 'max:120'],
+        'timeline' => ['required', 'string', 'max:120'],
         'message' => ['required', 'string', 'max:3000'],
     ]);
 

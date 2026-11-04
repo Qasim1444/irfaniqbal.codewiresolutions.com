@@ -5,7 +5,7 @@ export const projects = [
     title: "Digital Dealership System",
     description:
       "Lead Developer for a USA-based automotive dealership management platform. Built DMS and third-party API integrations, real-time data processing, AI-powered features, dashboards, KPIs and inventory management.",
-    image: "https://codewiresolutions.com/images/brokerconvalor.jpeg",
+    image: "/projects/brokerconvalor.webp",
     link: "https://www.brokerconvalor.it/",
     overview:
       "A dealership management platform built to bring day-to-day automotive operations into one connected system. The work covered the core DMS experience as well as integrations that keep dealership data moving between services.",
@@ -26,7 +26,7 @@ export const projects = [
     title: "CoolBuffs — AI Recruitment Platform",
     description:
       "Developed a custom RAG-powered AI chatbot microservice in Python (FastAPI) with vector search over platform content, giving accurate context-aware answers to candidates and employers. Laravel + Vue.js with Redis caching.",
-    image: "https://codewiresolutions.com/images/coolbuffs.jpeg",
+    image: "/projects/coolbuffs.webp",
     link: "https://coolbuffs.com/",
     overview:
       "CoolBuffs is a recruitment platform that helps candidates and employers find relevant information through a context-aware AI assistant grounded in the platform's own content.",
@@ -47,7 +47,7 @@ export const projects = [
     title: "ChefsHub — Chef & Supplier Marketplace",
     description:
       "Built a single Laravel 11 + Sanctum API backend powering a public website, admin panels, a Nuxt.js dashboard and a native Flutter mobile app — with token auth, role-based access and shared REST endpoints.",
-    image: "https://codewiresolutions.com/images/chefshub.jpeg",
+    image: "/projects/chefshub.webp",
     link: "https://chefshub.site/Api_z/public/en",
     overview:
       "ChefsHub connects chefs and suppliers through a marketplace available across web, administration and mobile experiences. A shared API provides a consistent foundation for all of them.",
@@ -68,7 +68,7 @@ export const projects = [
     title: "Project360 — Enterprise PM Tool",
     description:
       "Enterprise platform combining project management, time tracking and financial analytics. Features Gantt charts, calendar-based time entry, expense management, profitability dashboards and multi-organization roles.",
-    image: "https://codewiresolutions.com/images/project360.jpeg",
+    image: "/projects/project360.webp",
     link: "https://project360ai.com/",
     overview:
       "Project360 brings project planning, time tracking and financial visibility together in an enterprise platform designed for multiple organizations.",
@@ -89,7 +89,7 @@ export const projects = [
     title: "XStream Gym — Fitness Platform",
     description:
       "Full-stack fitness platform connecting trainers with members via live-streamed and on-demand workout classes. Role-based dashboards, class scheduling, secure auth, subscription access control and a responsive SPA.",
-    image: "https://codewiresolutions.com/images/XStream%20Gym.png",
+    image: "/projects/XStream Gym.webp",
     overview:
       "XStream Gym connects trainers and members through live-streamed and on-demand workout classes, with scheduling and subscription access built into the experience.",
     challenge:
@@ -109,7 +109,7 @@ export const projects = [
     title: "CareOX v2 — Warehouse & Order ERP",
     description:
       "Multi-tenant warehouse and order-fulfillment ERP bringing inventory, orders, CRM and a full finance suite into one platform. Integrated external marketplaces for auto order syncing, built with Laravel, Inertia.js and Vue.js.",
-    image: "https://codewiresolutions.com/images/careox.png",
+    image: "/projects/careox.webp",
     overview:
       "CareOX v2 is a multi-tenant ERP for warehouse and order fulfillment that connects inventory, orders, customer management and finance operations.",
     challenge:

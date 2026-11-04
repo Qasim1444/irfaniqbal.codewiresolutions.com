@@ -3,6 +3,8 @@ import React from 'react';
 import { Head, useForm, usePage } from '@inertiajs/react';
 import { projects, posts } from '../data/content';
 
+function Contact() { return <ContactQuote />; }
+
 const services = [['Backend Development', 'Scalable Laravel, PHP, Node.js and Express architectures, REST APIs, roles, integrations and multi-tenant systems.'], ['AI Integration', 'Context-aware chatbots and RAG pipelines with FastAPI, LLM integrations, vector search and Redis caching.'], ['Frontend Development', 'Responsive interfaces with React, Vue, Inertia.js and Tailwind CSS that feel fast and stay maintainable.']];
 
 function Navbar() { const [open, setOpen] = useState(false); const links = ['about', 'process', 'portfolio', 'services', 'contact']; return <header className="nav"><a href="#home" className="brand"><span className="brand-mark">I</span><span>Irfan Iqbal</span></a><button className="menu-btn" onClick={() => setOpen(!open)}>{open ? '×' : '☰'}</button><nav className={open ? 'nav-links open' : 'nav-links'}>{links.map(link => <a key={link} href={`#${link}`} onClick={() => setOpen(false)}>{link[0].toUpperCase() + link.slice(1)}</a>)}<a className="nav-cta" href="#contact">Contact</a></nav></header>; }
